@@ -62,18 +62,62 @@
             this.companyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.company_ClearBtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-
             this.companyIdTxtBox = new System.Windows.Forms.TextBox();
-            this.companyIndustryTxtBox = new System.Windows.Forms.TextBox();
-            this.companyNameTxtBox = new System.Windows.Forms.TextBox();
-
-
-
             this.company_DeleteBtn = new System.Windows.Forms.Button();
             this.company_EditBtn = new System.Windows.Forms.Button();
             this.company_addBtn = new System.Windows.Forms.Button();
+            this.companyIndustryTxtBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.companyNameTxtBox = new System.Windows.Forms.TextBox();
+            this.createOrder_tab = new System.Windows.Forms.TabPage();
+            this.courseInstanceDateBox = new System.Windows.Forms.DateTimePicker();
+            this.label15 = new System.Windows.Forms.Label();
+            this.courseInstanceMaxPublicTxtBox = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.courseInstanceMinPublicTxtBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.courseInstanceTutorIdTxtBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.courseInstanceCompanyIdTxtBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.courseInstanceCourseIdTxtBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.courseInstanceIdTxtBox = new System.Windows.Forms.TextBox();
+            this.courseInstancePlaceTxtBox = new System.Windows.Forms.TextBox();
+            this.courseInstanceClearBtn = new System.Windows.Forms.Button();
+            this.CourseInstanceDeleteBtn = new System.Windows.Forms.Button();
+            this.courseInstanceEditBtn = new System.Windows.Forms.Button();
+            this.courseInstanceAddBtn = new System.Windows.Forms.Button();
+            this.createOrderTab_courseInstanceDataGrid = new System.Windows.Forms.DataGridView();
+            this.ciidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.courseidDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.minpublicDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maxpublicDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.placeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tutoridDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.courseInstanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.createOrderTab_courseDataGrid = new System.Windows.Forms.DataGridView();
+            this.courseidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coursenameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coursedescriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coursecatagorieDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coursetypeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.courseBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.createOrderTab_companyDataGrid = new System.Windows.Forms.DataGridView();
+            this.companyidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.companynameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.industryDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.companyBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.createOrderTab_tutorDataGrid = new System.Windows.Forms.DataGridView();
+            this.tutoridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tutorfirstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tutorlastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.countrycodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateofbirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tutorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.courseBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.courseBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.courseTableAdapter = new Learning_Courses_2.p1g8DataSetTableAdapters.CourseTableAdapter();
@@ -81,6 +125,9 @@
             this.p1g8DataSet1 = new Learning_Courses_2.p1g8DataSet();
             this.p1g8DataSet2 = new Learning_Courses_2.p1g8DataSet();
             this.companyTableAdapter = new Learning_Courses_2.p1g8DataSetTableAdapters.CompanyTableAdapter();
+            this.tutorTableAdapter = new Learning_Courses_2.p1g8DataSetTableAdapters.TutorTableAdapter();
+            this.course_InstanceTableAdapter = new Learning_Courses_2.p1g8DataSetTableAdapters.Course_InstanceTableAdapter();
+            this.label11 = new System.Windows.Forms.Label();
             this.tabs_component.SuspendLayout();
             this.tab_courses.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.coursesTab_courseDataGrid)).BeginInit();
@@ -89,6 +136,15 @@
             this.tab_companies.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.companiesTab_companyDataGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).BeginInit();
+            this.createOrder_tab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_courseInstanceDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.courseInstanceBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_courseDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_companyDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_tutorDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tutorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1g8DataSet1)).BeginInit();
@@ -103,6 +159,7 @@
             this.tabs_component.Controls.Add(this.tab_start);
             this.tabs_component.Controls.Add(this.tab_courses);
             this.tabs_component.Controls.Add(this.tab_companies);
+            this.tabs_component.Controls.Add(this.createOrder_tab);
             this.tabs_component.Location = new System.Drawing.Point(12, 12);
             this.tabs_component.Name = "tabs_component";
             this.tabs_component.SelectedIndex = 0;
@@ -381,12 +438,12 @@
             this.companynameDataGridViewTextBoxColumn,
             this.industryDataGridViewTextBoxColumn});
             this.companiesTab_companyDataGrid.DataSource = this.companyBindingSource;
-            this.companiesTab_companyDataGrid.Location = new System.Drawing.Point(900, 94);
+            this.companiesTab_companyDataGrid.Location = new System.Drawing.Point(666, 94);
             this.companiesTab_companyDataGrid.Name = "companiesTab_companyDataGrid";
             this.companiesTab_companyDataGrid.ReadOnly = true;
             this.companiesTab_companyDataGrid.RowHeadersWidth = 62;
             this.companiesTab_companyDataGrid.RowTemplate.Height = 28;
-            this.companiesTab_companyDataGrid.Size = new System.Drawing.Size(519, 523);
+            this.companiesTab_companyDataGrid.Size = new System.Drawing.Size(837, 523);
             this.companiesTab_companyDataGrid.TabIndex = 33;
             this.companiesTab_companyDataGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.companiesTab_companyDataGrid_CellContentClick);
             // 
@@ -515,6 +572,495 @@
             this.companyNameTxtBox.Size = new System.Drawing.Size(474, 26);
             this.companyNameTxtBox.TabIndex = 20;
             // 
+            // createOrder_tab
+            // 
+            this.createOrder_tab.Controls.Add(this.label11);
+            this.createOrder_tab.Controls.Add(this.courseInstanceDateBox);
+            this.createOrder_tab.Controls.Add(this.label15);
+            this.createOrder_tab.Controls.Add(this.courseInstanceMaxPublicTxtBox);
+            this.createOrder_tab.Controls.Add(this.label10);
+            this.createOrder_tab.Controls.Add(this.courseInstanceMinPublicTxtBox);
+            this.createOrder_tab.Controls.Add(this.label14);
+            this.createOrder_tab.Controls.Add(this.courseInstanceTutorIdTxtBox);
+            this.createOrder_tab.Controls.Add(this.label13);
+            this.createOrder_tab.Controls.Add(this.courseInstanceCompanyIdTxtBox);
+            this.createOrder_tab.Controls.Add(this.label12);
+            this.createOrder_tab.Controls.Add(this.courseInstanceCourseIdTxtBox);
+            this.createOrder_tab.Controls.Add(this.label7);
+            this.createOrder_tab.Controls.Add(this.courseInstanceIdTxtBox);
+            this.createOrder_tab.Controls.Add(this.courseInstancePlaceTxtBox);
+            this.createOrder_tab.Controls.Add(this.courseInstanceClearBtn);
+            this.createOrder_tab.Controls.Add(this.CourseInstanceDeleteBtn);
+            this.createOrder_tab.Controls.Add(this.courseInstanceEditBtn);
+            this.createOrder_tab.Controls.Add(this.courseInstanceAddBtn);
+            this.createOrder_tab.Controls.Add(this.createOrderTab_courseInstanceDataGrid);
+            this.createOrder_tab.Controls.Add(this.createOrderTab_courseDataGrid);
+            this.createOrder_tab.Controls.Add(this.createOrderTab_companyDataGrid);
+            this.createOrder_tab.Controls.Add(this.createOrderTab_tutorDataGrid);
+            this.createOrder_tab.Location = new System.Drawing.Point(4, 29);
+            this.createOrder_tab.Name = "createOrder_tab";
+            this.createOrder_tab.Padding = new System.Windows.Forms.Padding(3);
+            this.createOrder_tab.Size = new System.Drawing.Size(1528, 769);
+            this.createOrder_tab.TabIndex = 3;
+            this.createOrder_tab.Text = "Create Order";
+            this.createOrder_tab.UseVisualStyleBackColor = true;
+            // 
+            // courseInstanceDateBox
+            // 
+            this.courseInstanceDateBox.Location = new System.Drawing.Point(327, 97);
+            this.courseInstanceDateBox.Name = "courseInstanceDateBox";
+            this.courseInstanceDateBox.Size = new System.Drawing.Size(276, 26);
+            this.courseInstanceDateBox.TabIndex = 48;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(176, 76);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(84, 20);
+            this.label15.TabIndex = 46;
+            this.label15.Text = "Max Public";
+            // 
+            // courseInstanceMaxPublicTxtBox
+            // 
+            this.courseInstanceMaxPublicTxtBox.Location = new System.Drawing.Point(180, 99);
+            this.courseInstanceMaxPublicTxtBox.Name = "courseInstanceMaxPublicTxtBox";
+            this.courseInstanceMaxPublicTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceMaxPublicTxtBox.TabIndex = 47;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(22, 76);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(80, 20);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "Min Public";
+            // 
+            // courseInstanceMinPublicTxtBox
+            // 
+            this.courseInstanceMinPublicTxtBox.Location = new System.Drawing.Point(26, 99);
+            this.courseInstanceMinPublicTxtBox.Name = "courseInstanceMinPublicTxtBox";
+            this.courseInstanceMinPublicTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceMinPublicTxtBox.TabIndex = 45;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(473, 8);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(46, 20);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "Tutor";
+            // 
+            // courseInstanceTutorIdTxtBox
+            // 
+            this.courseInstanceTutorIdTxtBox.Location = new System.Drawing.Point(477, 31);
+            this.courseInstanceTutorIdTxtBox.Name = "courseInstanceTutorIdTxtBox";
+            this.courseInstanceTutorIdTxtBox.ReadOnly = true;
+            this.courseInstanceTutorIdTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceTutorIdTxtBox.TabIndex = 43;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(323, 8);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(76, 20);
+            this.label13.TabIndex = 40;
+            this.label13.Text = "Company";
+            // 
+            // courseInstanceCompanyIdTxtBox
+            // 
+            this.courseInstanceCompanyIdTxtBox.Location = new System.Drawing.Point(327, 31);
+            this.courseInstanceCompanyIdTxtBox.Name = "courseInstanceCompanyIdTxtBox";
+            this.courseInstanceCompanyIdTxtBox.ReadOnly = true;
+            this.courseInstanceCompanyIdTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceCompanyIdTxtBox.TabIndex = 41;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(176, 8);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(60, 20);
+            this.label12.TabIndex = 38;
+            this.label12.Text = "Course";
+            // 
+            // courseInstanceCourseIdTxtBox
+            // 
+            this.courseInstanceCourseIdTxtBox.Location = new System.Drawing.Point(180, 31);
+            this.courseInstanceCourseIdTxtBox.Name = "courseInstanceCourseIdTxtBox";
+            this.courseInstanceCourseIdTxtBox.ReadOnly = true;
+            this.courseInstanceCourseIdTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceCourseIdTxtBox.TabIndex = 39;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(22, 8);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(23, 20);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Id";
+            // 
+            // courseInstanceIdTxtBox
+            // 
+            this.courseInstanceIdTxtBox.Location = new System.Drawing.Point(26, 31);
+            this.courseInstanceIdTxtBox.Name = "courseInstanceIdTxtBox";
+            this.courseInstanceIdTxtBox.ReadOnly = true;
+            this.courseInstanceIdTxtBox.Size = new System.Drawing.Size(126, 26);
+            this.courseInstanceIdTxtBox.TabIndex = 37;
+            // 
+            // courseInstancePlaceTxtBox
+            // 
+            this.courseInstancePlaceTxtBox.Location = new System.Drawing.Point(26, 209);
+            this.courseInstancePlaceTxtBox.Name = "courseInstancePlaceTxtBox";
+            this.courseInstancePlaceTxtBox.Size = new System.Drawing.Size(474, 26);
+            this.courseInstancePlaceTxtBox.TabIndex = 35;
+            // 
+            // courseInstanceClearBtn
+            // 
+            this.courseInstanceClearBtn.BackColor = System.Drawing.Color.RosyBrown;
+            this.courseInstanceClearBtn.Location = new System.Drawing.Point(841, 222);
+            this.courseInstanceClearBtn.Name = "courseInstanceClearBtn";
+            this.courseInstanceClearBtn.Size = new System.Drawing.Size(100, 65);
+            this.courseInstanceClearBtn.TabIndex = 22;
+            this.courseInstanceClearBtn.Text = "Clear";
+            this.courseInstanceClearBtn.UseVisualStyleBackColor = false;
+            this.courseInstanceClearBtn.Click += new System.EventHandler(this.courseInstanceClearBtn_Click);
+            // 
+            // CourseInstanceDeleteBtn
+            // 
+            this.CourseInstanceDeleteBtn.BackColor = System.Drawing.Color.Red;
+            this.CourseInstanceDeleteBtn.Location = new System.Drawing.Point(841, 151);
+            this.CourseInstanceDeleteBtn.Name = "CourseInstanceDeleteBtn";
+            this.CourseInstanceDeleteBtn.Size = new System.Drawing.Size(100, 65);
+            this.CourseInstanceDeleteBtn.TabIndex = 21;
+            this.CourseInstanceDeleteBtn.Text = "Delete";
+            this.CourseInstanceDeleteBtn.UseVisualStyleBackColor = false;
+            this.CourseInstanceDeleteBtn.Click += new System.EventHandler(this.CourseInstanceDeleteBtn_Click);
+            // 
+            // courseInstanceEditBtn
+            // 
+            this.courseInstanceEditBtn.BackColor = System.Drawing.Color.Yellow;
+            this.courseInstanceEditBtn.Location = new System.Drawing.Point(841, 80);
+            this.courseInstanceEditBtn.Name = "courseInstanceEditBtn";
+            this.courseInstanceEditBtn.Size = new System.Drawing.Size(100, 65);
+            this.courseInstanceEditBtn.TabIndex = 20;
+            this.courseInstanceEditBtn.Text = "Edit";
+            this.courseInstanceEditBtn.UseVisualStyleBackColor = false;
+            this.courseInstanceEditBtn.Click += new System.EventHandler(this.courseInstanceEditBtn_Click);
+            // 
+            // courseInstanceAddBtn
+            // 
+            this.courseInstanceAddBtn.BackColor = System.Drawing.Color.Lime;
+            this.courseInstanceAddBtn.Location = new System.Drawing.Point(841, 9);
+            this.courseInstanceAddBtn.Name = "courseInstanceAddBtn";
+            this.courseInstanceAddBtn.Size = new System.Drawing.Size(100, 65);
+            this.courseInstanceAddBtn.TabIndex = 19;
+            this.courseInstanceAddBtn.Text = "Add";
+            this.courseInstanceAddBtn.UseVisualStyleBackColor = false;
+            this.courseInstanceAddBtn.Click += new System.EventHandler(this.courseInstanceAddBtn_Click);
+            // 
+            // createOrderTab_courseInstanceDataGrid
+            // 
+            this.createOrderTab_courseInstanceDataGrid.AllowUserToAddRows = false;
+            this.createOrderTab_courseInstanceDataGrid.AllowUserToDeleteRows = false;
+            this.createOrderTab_courseInstanceDataGrid.AutoGenerateColumns = false;
+            this.createOrderTab_courseInstanceDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.createOrderTab_courseInstanceDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ciidDataGridViewTextBoxColumn,
+            this.courseidDataGridViewTextBoxColumn2,
+            this.minpublicDataGridViewTextBoxColumn,
+            this.maxpublicDataGridViewTextBoxColumn,
+            this.placeDataGridViewTextBoxColumn,
+            this.dateDataGridViewTextBoxColumn,
+            this.tutoridDataGridViewTextBoxColumn1});
+            this.createOrderTab_courseInstanceDataGrid.DataSource = this.courseInstanceBindingSource;
+            this.createOrderTab_courseInstanceDataGrid.Location = new System.Drawing.Point(6, 293);
+            this.createOrderTab_courseInstanceDataGrid.Name = "createOrderTab_courseInstanceDataGrid";
+            this.createOrderTab_courseInstanceDataGrid.ReadOnly = true;
+            this.createOrderTab_courseInstanceDataGrid.RowHeadersWidth = 62;
+            this.createOrderTab_courseInstanceDataGrid.RowTemplate.Height = 28;
+            this.createOrderTab_courseInstanceDataGrid.Size = new System.Drawing.Size(946, 406);
+            this.createOrderTab_courseInstanceDataGrid.TabIndex = 3;
+            this.createOrderTab_courseInstanceDataGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.createOrderTab_courseInstanceDataGrid_CellContentClick);
+            // 
+            // ciidDataGridViewTextBoxColumn
+            // 
+            this.ciidDataGridViewTextBoxColumn.DataPropertyName = "ci_id";
+            this.ciidDataGridViewTextBoxColumn.HeaderText = "ci_id";
+            this.ciidDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.ciidDataGridViewTextBoxColumn.Name = "ciidDataGridViewTextBoxColumn";
+            this.ciidDataGridViewTextBoxColumn.ReadOnly = true;
+            this.ciidDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // courseidDataGridViewTextBoxColumn2
+            // 
+            this.courseidDataGridViewTextBoxColumn2.DataPropertyName = "course_id";
+            this.courseidDataGridViewTextBoxColumn2.HeaderText = "course_id";
+            this.courseidDataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.courseidDataGridViewTextBoxColumn2.Name = "courseidDataGridViewTextBoxColumn2";
+            this.courseidDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.courseidDataGridViewTextBoxColumn2.Width = 150;
+            // 
+            // minpublicDataGridViewTextBoxColumn
+            // 
+            this.minpublicDataGridViewTextBoxColumn.DataPropertyName = "min_public";
+            this.minpublicDataGridViewTextBoxColumn.HeaderText = "min_public";
+            this.minpublicDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.minpublicDataGridViewTextBoxColumn.Name = "minpublicDataGridViewTextBoxColumn";
+            this.minpublicDataGridViewTextBoxColumn.ReadOnly = true;
+            this.minpublicDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // maxpublicDataGridViewTextBoxColumn
+            // 
+            this.maxpublicDataGridViewTextBoxColumn.DataPropertyName = "max_public";
+            this.maxpublicDataGridViewTextBoxColumn.HeaderText = "max_public";
+            this.maxpublicDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.maxpublicDataGridViewTextBoxColumn.Name = "maxpublicDataGridViewTextBoxColumn";
+            this.maxpublicDataGridViewTextBoxColumn.ReadOnly = true;
+            this.maxpublicDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // placeDataGridViewTextBoxColumn
+            // 
+            this.placeDataGridViewTextBoxColumn.DataPropertyName = "place";
+            this.placeDataGridViewTextBoxColumn.HeaderText = "place";
+            this.placeDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.placeDataGridViewTextBoxColumn.Name = "placeDataGridViewTextBoxColumn";
+            this.placeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.placeDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
+            this.dateDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dateDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // tutoridDataGridViewTextBoxColumn1
+            // 
+            this.tutoridDataGridViewTextBoxColumn1.DataPropertyName = "tutor_id";
+            this.tutoridDataGridViewTextBoxColumn1.HeaderText = "tutor_id";
+            this.tutoridDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.tutoridDataGridViewTextBoxColumn1.Name = "tutoridDataGridViewTextBoxColumn1";
+            this.tutoridDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.tutoridDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // courseInstanceBindingSource
+            // 
+            this.courseInstanceBindingSource.DataMember = "Course_Instance";
+            this.courseInstanceBindingSource.DataSource = this.p1g8DataSet;
+            // 
+            // createOrderTab_courseDataGrid
+            // 
+            this.createOrderTab_courseDataGrid.AllowUserToAddRows = false;
+            this.createOrderTab_courseDataGrid.AllowUserToDeleteRows = false;
+            this.createOrderTab_courseDataGrid.AutoGenerateColumns = false;
+            this.createOrderTab_courseDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.createOrderTab_courseDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.courseidDataGridViewTextBoxColumn1,
+            this.coursenameDataGridViewTextBoxColumn1,
+            this.coursedescriptionDataGridViewTextBoxColumn1,
+            this.coursecatagorieDataGridViewTextBoxColumn1,
+            this.coursetypeDataGridViewTextBoxColumn1});
+            this.createOrderTab_courseDataGrid.DataSource = this.courseBindingSource3;
+            this.createOrderTab_courseDataGrid.Location = new System.Drawing.Point(971, 6);
+            this.createOrderTab_courseDataGrid.Name = "createOrderTab_courseDataGrid";
+            this.createOrderTab_courseDataGrid.ReadOnly = true;
+            this.createOrderTab_courseDataGrid.RowHeadersWidth = 62;
+            this.createOrderTab_courseDataGrid.RowTemplate.Height = 28;
+            this.createOrderTab_courseDataGrid.Size = new System.Drawing.Size(551, 228);
+            this.createOrderTab_courseDataGrid.TabIndex = 2;
+            this.createOrderTab_courseDataGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.createOrderTab_courseDataGrid_CellContentClick);
+            // 
+            // courseidDataGridViewTextBoxColumn1
+            // 
+            this.courseidDataGridViewTextBoxColumn1.DataPropertyName = "course_id";
+            this.courseidDataGridViewTextBoxColumn1.HeaderText = "course_id";
+            this.courseidDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.courseidDataGridViewTextBoxColumn1.Name = "courseidDataGridViewTextBoxColumn1";
+            this.courseidDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.courseidDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // coursenameDataGridViewTextBoxColumn1
+            // 
+            this.coursenameDataGridViewTextBoxColumn1.DataPropertyName = "course_name";
+            this.coursenameDataGridViewTextBoxColumn1.HeaderText = "course_name";
+            this.coursenameDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.coursenameDataGridViewTextBoxColumn1.Name = "coursenameDataGridViewTextBoxColumn1";
+            this.coursenameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coursenameDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // coursedescriptionDataGridViewTextBoxColumn1
+            // 
+            this.coursedescriptionDataGridViewTextBoxColumn1.DataPropertyName = "course_description";
+            this.coursedescriptionDataGridViewTextBoxColumn1.HeaderText = "course_description";
+            this.coursedescriptionDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.coursedescriptionDataGridViewTextBoxColumn1.Name = "coursedescriptionDataGridViewTextBoxColumn1";
+            this.coursedescriptionDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coursedescriptionDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // coursecatagorieDataGridViewTextBoxColumn1
+            // 
+            this.coursecatagorieDataGridViewTextBoxColumn1.DataPropertyName = "course_catagorie";
+            this.coursecatagorieDataGridViewTextBoxColumn1.HeaderText = "course_catagorie";
+            this.coursecatagorieDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.coursecatagorieDataGridViewTextBoxColumn1.Name = "coursecatagorieDataGridViewTextBoxColumn1";
+            this.coursecatagorieDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coursecatagorieDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // coursetypeDataGridViewTextBoxColumn1
+            // 
+            this.coursetypeDataGridViewTextBoxColumn1.DataPropertyName = "course_type";
+            this.coursetypeDataGridViewTextBoxColumn1.HeaderText = "course_type";
+            this.coursetypeDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.coursetypeDataGridViewTextBoxColumn1.Name = "coursetypeDataGridViewTextBoxColumn1";
+            this.coursetypeDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.coursetypeDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // courseBindingSource3
+            // 
+            this.courseBindingSource3.DataMember = "Course";
+            this.courseBindingSource3.DataSource = this.p1g8DataSet;
+            // 
+            // createOrderTab_companyDataGrid
+            // 
+            this.createOrderTab_companyDataGrid.AllowUserToAddRows = false;
+            this.createOrderTab_companyDataGrid.AllowUserToDeleteRows = false;
+            this.createOrderTab_companyDataGrid.AutoGenerateColumns = false;
+            this.createOrderTab_companyDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.createOrderTab_companyDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.companyidDataGridViewTextBoxColumn1,
+            this.companynameDataGridViewTextBoxColumn1,
+            this.industryDataGridViewTextBoxColumn1});
+            this.createOrderTab_companyDataGrid.DataSource = this.companyBindingSource1;
+            this.createOrderTab_companyDataGrid.Location = new System.Drawing.Point(971, 240);
+            this.createOrderTab_companyDataGrid.Name = "createOrderTab_companyDataGrid";
+            this.createOrderTab_companyDataGrid.ReadOnly = true;
+            this.createOrderTab_companyDataGrid.RowHeadersWidth = 62;
+            this.createOrderTab_companyDataGrid.RowTemplate.Height = 28;
+            this.createOrderTab_companyDataGrid.Size = new System.Drawing.Size(551, 203);
+            this.createOrderTab_companyDataGrid.TabIndex = 1;
+            this.createOrderTab_companyDataGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.createOrderTab_companyDataGrid_CellContentClick);
+            // 
+            // companyidDataGridViewTextBoxColumn1
+            // 
+            this.companyidDataGridViewTextBoxColumn1.DataPropertyName = "company_id";
+            this.companyidDataGridViewTextBoxColumn1.HeaderText = "company_id";
+            this.companyidDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.companyidDataGridViewTextBoxColumn1.Name = "companyidDataGridViewTextBoxColumn1";
+            this.companyidDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.companyidDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // companynameDataGridViewTextBoxColumn1
+            // 
+            this.companynameDataGridViewTextBoxColumn1.DataPropertyName = "company_name";
+            this.companynameDataGridViewTextBoxColumn1.HeaderText = "company_name";
+            this.companynameDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.companynameDataGridViewTextBoxColumn1.Name = "companynameDataGridViewTextBoxColumn1";
+            this.companynameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.companynameDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // industryDataGridViewTextBoxColumn1
+            // 
+            this.industryDataGridViewTextBoxColumn1.DataPropertyName = "industry";
+            this.industryDataGridViewTextBoxColumn1.HeaderText = "industry";
+            this.industryDataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.industryDataGridViewTextBoxColumn1.Name = "industryDataGridViewTextBoxColumn1";
+            this.industryDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.industryDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // companyBindingSource1
+            // 
+            this.companyBindingSource1.DataMember = "Company";
+            this.companyBindingSource1.DataSource = this.p1g8DataSet;
+            // 
+            // createOrderTab_tutorDataGrid
+            // 
+            this.createOrderTab_tutorDataGrid.AllowUserToAddRows = false;
+            this.createOrderTab_tutorDataGrid.AllowUserToDeleteRows = false;
+            this.createOrderTab_tutorDataGrid.AutoGenerateColumns = false;
+            this.createOrderTab_tutorDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.createOrderTab_tutorDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tutoridDataGridViewTextBoxColumn,
+            this.tutorfirstnameDataGridViewTextBoxColumn,
+            this.tutorlastnameDataGridViewTextBoxColumn,
+            this.countrycodeDataGridViewTextBoxColumn,
+            this.dateofbirthDataGridViewTextBoxColumn,
+            this.emailDataGridViewTextBoxColumn});
+            this.createOrderTab_tutorDataGrid.DataSource = this.tutorBindingSource;
+            this.createOrderTab_tutorDataGrid.Location = new System.Drawing.Point(971, 449);
+            this.createOrderTab_tutorDataGrid.Name = "createOrderTab_tutorDataGrid";
+            this.createOrderTab_tutorDataGrid.ReadOnly = true;
+            this.createOrderTab_tutorDataGrid.RowHeadersWidth = 62;
+            this.createOrderTab_tutorDataGrid.RowTemplate.Height = 28;
+            this.createOrderTab_tutorDataGrid.Size = new System.Drawing.Size(551, 250);
+            this.createOrderTab_tutorDataGrid.TabIndex = 0;
+            this.createOrderTab_tutorDataGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.createOrderTab_tutorDataGrid_CellContentClick);
+            // 
+            // tutoridDataGridViewTextBoxColumn
+            // 
+            this.tutoridDataGridViewTextBoxColumn.DataPropertyName = "tutor_id";
+            this.tutoridDataGridViewTextBoxColumn.HeaderText = "tutor_id";
+            this.tutoridDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.tutoridDataGridViewTextBoxColumn.Name = "tutoridDataGridViewTextBoxColumn";
+            this.tutoridDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tutoridDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // tutorfirstnameDataGridViewTextBoxColumn
+            // 
+            this.tutorfirstnameDataGridViewTextBoxColumn.DataPropertyName = "tutor_first_name";
+            this.tutorfirstnameDataGridViewTextBoxColumn.HeaderText = "tutor_first_name";
+            this.tutorfirstnameDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.tutorfirstnameDataGridViewTextBoxColumn.Name = "tutorfirstnameDataGridViewTextBoxColumn";
+            this.tutorfirstnameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tutorfirstnameDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // tutorlastnameDataGridViewTextBoxColumn
+            // 
+            this.tutorlastnameDataGridViewTextBoxColumn.DataPropertyName = "tutor_last_name";
+            this.tutorlastnameDataGridViewTextBoxColumn.HeaderText = "tutor_last_name";
+            this.tutorlastnameDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.tutorlastnameDataGridViewTextBoxColumn.Name = "tutorlastnameDataGridViewTextBoxColumn";
+            this.tutorlastnameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tutorlastnameDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // countrycodeDataGridViewTextBoxColumn
+            // 
+            this.countrycodeDataGridViewTextBoxColumn.DataPropertyName = "country_code";
+            this.countrycodeDataGridViewTextBoxColumn.HeaderText = "country_code";
+            this.countrycodeDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.countrycodeDataGridViewTextBoxColumn.Name = "countrycodeDataGridViewTextBoxColumn";
+            this.countrycodeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.countrycodeDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // dateofbirthDataGridViewTextBoxColumn
+            // 
+            this.dateofbirthDataGridViewTextBoxColumn.DataPropertyName = "date_of_birth";
+            this.dateofbirthDataGridViewTextBoxColumn.HeaderText = "date_of_birth";
+            this.dateofbirthDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.dateofbirthDataGridViewTextBoxColumn.Name = "dateofbirthDataGridViewTextBoxColumn";
+            this.dateofbirthDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dateofbirthDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "email";
+            this.emailDataGridViewTextBoxColumn.MinimumWidth = 8;
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.emailDataGridViewTextBoxColumn.ReadOnly = true;
+            this.emailDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // tutorBindingSource
+            // 
+            this.tutorBindingSource.DataMember = "Tutor";
+            this.tutorBindingSource.DataSource = this.p1g8DataSet;
+            // 
             // courseBindingSource1
             // 
             this.courseBindingSource1.DataMember = "Course";
@@ -555,6 +1101,23 @@
             // 
             this.companyTableAdapter.ClearBeforeFill = true;
             // 
+            // tutorTableAdapter
+            // 
+            this.tutorTableAdapter.ClearBeforeFill = true;
+            // 
+            // course_InstanceTableAdapter
+            // 
+            this.course_InstanceTableAdapter.ClearBeforeFill = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(22, 186);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(48, 20);
+            this.label11.TabIndex = 49;
+            this.label11.Text = "Place";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -574,6 +1137,16 @@
             this.tab_companies.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.companiesTab_companyDataGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).EndInit();
+            this.createOrder_tab.ResumeLayout(false);
+            this.createOrder_tab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_courseInstanceDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.courseInstanceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_courseDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_companyDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.createOrderTab_tutorDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tutorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1g8DataSet1)).EndInit();
@@ -633,6 +1206,59 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn companyidDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn companynameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn industryDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TabPage createOrder_tab;
+        private System.Windows.Forms.DataGridView createOrderTab_tutorDataGrid;
+        private System.Windows.Forms.BindingSource tutorBindingSource;
+        private p1g8DataSetTableAdapters.TutorTableAdapter tutorTableAdapter;
+        private System.Windows.Forms.DataGridView createOrderTab_courseInstanceDataGrid;
+        private System.Windows.Forms.DataGridView createOrderTab_courseDataGrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn courseidDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coursenameDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coursedescriptionDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coursecatagorieDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coursetypeDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.BindingSource courseBindingSource3;
+        private System.Windows.Forms.DataGridView createOrderTab_companyDataGrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn companyidDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn companynameDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn industryDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.BindingSource companyBindingSource1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tutoridDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tutorfirstnameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tutorlastnameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn countrycodeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateofbirthDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource courseInstanceBindingSource;
+        private p1g8DataSetTableAdapters.Course_InstanceTableAdapter course_InstanceTableAdapter;
+        private System.Windows.Forms.Button courseInstanceClearBtn;
+        private System.Windows.Forms.Button CourseInstanceDeleteBtn;
+        private System.Windows.Forms.Button courseInstanceEditBtn;
+        private System.Windows.Forms.Button courseInstanceAddBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ciidDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn courseidDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn minpublicDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maxpublicDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn placeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tutoridDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DateTimePicker courseInstanceDateBox;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label7;
+
+
+        private System.Windows.Forms.TextBox courseInstanceMaxPublicTxtBox;
+        private System.Windows.Forms.TextBox courseInstanceMinPublicTxtBox;
+        private System.Windows.Forms.TextBox courseInstanceTutorIdTxtBox;
+        private System.Windows.Forms.TextBox courseInstanceCompanyIdTxtBox;
+        private System.Windows.Forms.TextBox courseInstanceCourseIdTxtBox;
+        private System.Windows.Forms.TextBox courseInstanceIdTxtBox;
+        private System.Windows.Forms.TextBox courseInstancePlaceTxtBox;
+        private System.Windows.Forms.Label label11;
     }
 }
 
